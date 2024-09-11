@@ -359,3 +359,14 @@ elif page == "History":
                 st.write("---")
     else:
         st.write("No history available.")
+        
+st.markdown("""
+<style>
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://images.unsplash.com/photo-1698945746290-a9d1cc575e77");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+</style>
+""", unsafe_allow_html=True)
