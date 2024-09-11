@@ -78,7 +78,6 @@ def generate_docx(generated_content):
     return byte_io
 
 # Define input prompts for generating content
-# Define input prompts for generating content
 input_prompts = {
     "Architecture & Design": """
     You are an expert in Architecture & Design. Your task is to provide an in-depth explanation
@@ -595,7 +594,7 @@ elif page == "Ask Me About Your Slide":
     st.title("Ask Me About Your Slide")
 
     # Text input for asking questions
-    question = st.text_input("Ask a question about your slides:")
+    question = st.text_input("Ask a question about your slide:")
 
     if question:
         # Get response from Gemini API for the question
